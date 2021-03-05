@@ -119,7 +119,14 @@ branches:
         # Required. Require branches to be up to date before merging.
         strict: true
         # Required. The list of status checks to require in order to merge into this branch
-        contexts: []
+        contexts: [
+          "Header rules - arcus-probot-test-staging",
+          "Mixed content - arcus-probot-test-staging",
+          "Pages changed - arcus-probot-test-staging",
+          "Redirect rules - arcus-probot-test-staging",
+          "WIP",
+          "netlify/arcus-security-staging/deploy-preview"
+        ]
       # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
       enforce_admins: true
       # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
