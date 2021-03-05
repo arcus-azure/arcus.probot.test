@@ -13,23 +13,6 @@ repository:
   default_branch: master
   allow_squash_merge: true
 
-labels:
-  - name: automation
-    color: 00e5a8
-    description: All issues related to project automation.
-
-  - name: breaking-change
-    color: e99695
-    description: All issues that require to do a breaking change.
-    
-  - name: bug
-    color: d73a4a
-    description: Something isn't working
-    
-  - name: dependencies
-    color: 0366d6
-    description: Pull requests that update a dependency file
-
 milestones:
   - title: Project Setup
     description: All tasks related to creating a new Arcus project
