@@ -7,7 +7,7 @@ repository:
   name: arcus.probot.test
 
   # A short description of the repository that will show up on GitHub
-  description: Test project to check the posibilities of Probot. 
+  description: Test project to check the posibilities of Probot configuration. 
 
   # A URL with more information about the repository
   homepage: https://arcus..github.io/
