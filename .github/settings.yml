@@ -48,18 +48,21 @@ repository:
 
 # Labels: define labels for Issues and Pull Requests
 labels:
+  - name: automation
+    color: 00e5a8
+    description: All issues related to project automation.
+
+  - name: azure-key-vault
+    color: cc1e00
+    description: All issues related to Azure Key Vault integration
+
+  - name: breaking-change
+    color: e99695
+    description: All issues that require to do a breaking change.
+    
   - name: bug
-    color: CC0000
-    description: An issue with the system 🐛.
-
-  - name: feature
-    # If including a `#`, make sure to wrap it with quotes!
-    color: '#336699'
-    description: New functionality.
-
-  - name: first-timers-only
-    # include the old name to rename an existing label
-    oldname: Help Wanted
+    color: d73a4a
+    description: Something isn't working
 
 # Milestones: define milestones for Issues and Pull Requests
 milestones:
